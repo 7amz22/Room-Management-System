@@ -1,0 +1,72 @@
+:root {
+    --headingFont: "Poppins", "Arial";
+    --bodyFont: "Roboto", "Arial";
+    --accent: #DAA520;
+    --secondaryOne: #012362;
+    --secondaryTwo: #f2f2f2;
+    --primary: #fafafa;
+    --black: #333333;
+}
+
+.course-info {
+    width: 1000px; 
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 10px auto; /* CENTERED the whole div */
+    position: relative;
+    margin-top: 6%;
+}
+
+table {
+    
+    width: 100%;
+    max-width: 1000px; 
+    height: auto;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 40px auto; /* Top & bottom space + horizontal center */
+}
+
+th {
+    
+    
+    padding: 10px;
+    border: 1px solid black; 
+    color: #333333;
+    
+    font-family: var(--bodyFont);
+    width: 500px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .course-info {
+        width: 95%; /* Responsive width */
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+        
+    }
+
+
+  
+}
+
+
+
+
+
+
+
+p{
+    font-family: var(--bodyFont);
+}
+
+td {
+    font-family: var(--bodyFont);
+    border: 1px solid black;
+    
+}
